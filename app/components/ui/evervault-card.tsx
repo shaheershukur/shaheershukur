@@ -83,6 +83,7 @@ export function CardPattern({ mouseX, mouseY, randomString }: any) {
 
 const characters =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
 export const generateRandomString = (length: number) => {
   let result = "";
   for (let i = 0; i < length; i++) {
@@ -90,19 +91,3 @@ export const generateRandomString = (length: number) => {
   }
   return result;
 };
-
-// export const Icon = ({ className, ...rest }: any) => {
-//   return (
-//     <svg
-//       xmlns="http://www.w3.org/2000/svg"
-//       fill="none"
-//       viewBox="0 0 24 24"
-//       strokeWidth="1.5"
-//       stroke="currentColor"
-//       className={className}
-//       {...rest}
-//     >
-//       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
-//     </svg>
-//   );
-// };
