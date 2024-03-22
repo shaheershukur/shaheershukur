@@ -6,7 +6,8 @@ const nextConfig = {
   output: 'export',
   cleanDistDir: true,
   assetPrefix: isProd ? githubDomain : undefined,
-  basePath: '',
+  basePath: isProd ? '/shaheershukur' : undefined,
+  distDir: 'dist',
 };
 
 export default nextConfig;
