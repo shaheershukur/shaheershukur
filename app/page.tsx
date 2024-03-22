@@ -1,5 +1,4 @@
-import { Fragment } from "react";
-import { EvervaultCard } from "./components/ui/evervault-card";
+import { EvervaultCard } from './components/ui/evervault-card';
 
 export default function Home() {
   return (
